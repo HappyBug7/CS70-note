@@ -71,3 +71,4 @@ In English: “the square of every natural number is a natural number.”
 $(\forall x \in N)(\exists y\in N)(y=x^{2})$
 English: there is an x in S where P(x) does not hold. That is,
 $\lnot(\forall x\in S)(P(x))\Longleftrightarrow(\exists x\in S)(\lnot P(x))$
+
