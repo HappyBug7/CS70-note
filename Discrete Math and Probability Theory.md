@@ -43,4 +43,31 @@ The **Contrapositive** of "$P\Rightarrow Q$" is "$Q\Rightarrow P$"
 $P\Rightarrow Q\equiv \lnot P\vee Q\equiv \lnot(\lnot Q)\vee \lnot P\equiv \lnot Q\Rightarrow \lnot P$
 
 
+## Converse
+Converse of "$P\Rightarrow Q$" is "$Q\Rightarrow P$"
 
+## Defination
+$P$ i.i.f. $Q$, $P\Longleftrightarrow Q$ (*notataion: "$\Longleftrightarrow$" stands for "Logically equivalent"*)
+
+## Variables
+The follow statements
+- $\sum\limits_{i=1}^{n}i=\frac{n(n+1)}{2}$
+- $x>2$
+- $n$ is even and the sum of two primes
+Are they **propositions**?
+No! Because they have free variables
+We can call them predicates, same as boolean valued functions from **61A**
+
+## Quantifiers
+Consider the proposition: "For all natural numbers $n$, $\sum\limits_{i=1}^{n}i=\frac{n(n+1)}{2}$"
+propositions has universe: "The natural numbers".
+Universe examples incude:
+- $\mathbb{N}=\{0,1,...\}$
+- $\mathbb{Z}=\{...,-1,0,...\}$
+- $\mathbb{Z^{+}}$ (positive integers)
+- $\mathbb{R}$ (real numbers)
+- Any set..
+In English: “the square of every natural number is a natural number.”
+$(\forall x \in N)(\exists y\in N)(y=x^{2})$
+English: there is an x in S where P(x) does not hold. That is,
+$\lnot(\forall x\in S)(P(x))\Longleftrightarrow(\exists x\in S)(\lnot P(x))$
